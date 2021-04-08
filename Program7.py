@@ -18,4 +18,5 @@ Britian = british_youtube.set_index(['title', 'trending_date'])
 CanadaSearch = (Canada[Canada.eq("Ed Sheeran").any(1)])
 BritianSearch = (Britian[Britian.eq("Ed Sheeran").any(1)])
 print(CanadaSearch)
+print(BritianSearch)
 

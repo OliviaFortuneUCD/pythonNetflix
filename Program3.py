@@ -18,5 +18,4 @@ cleaned_data = netflix_data.fillna(0)
 cleaned_data = netflix_data.fillna(method='bfill', axis=0).fillna(0)
 drop_duplicates= netflix_data.drop_duplicates()
 print(netflix_data.shape,drop_duplicates.shape)
-drop_duplicates= netflix_data.drop_duplicates(subset=['show_id'])
-print(netflix_data.shape,drop_duplicates.shape)
+

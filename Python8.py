@@ -16,8 +16,11 @@ pd.options.display.max_rows = None
 
 
 #CanadaSearch = canadian_youtube[canadian_youtube['title'].str.match('Ed Sheeran.*')== True]
-#print(CanadaSearch)
 
-Canadalikes = canadian_youtube[canadian_youtube['likes']> 1800000]
-print(Canadalikes.title)
+
+Canadalikes = canadian_youtube[canadian_youtube['likes']> 1900000]
+print(Canadalikes.title,Canadalikes.date)
+#Britishlikes  = british_youtube[british_youtube['likes']> 100000]
+#print(Britishlikes.likes)
+
 
